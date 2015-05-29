@@ -1,13 +1,12 @@
 package org.dy.lint
 
-/**
- * Created by Pillar on 2015/5/29.
- */
-class Person {
-  def hi() ={
-    "Hi"
-    println("A haha")
-  }
+import org.dy.lint.Cat
 
-  println("Oops")
+object Hi {
+  def main(args: Array[String]) = {
+    val a = 123
+    val d = 3 / 0
+    val c = new Cat
+    println("Hi Lint me2!")
+  }
 }
