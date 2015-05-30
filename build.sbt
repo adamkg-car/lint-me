@@ -1,9 +1,9 @@
-lazy val root = (project in file(".")).
-  settings(
-    name := "lint-me",
-    organization := "org.dy.lint",
-    version := "1.0",
-    scalaVersion := "2.11.6"
-  )
+name := "lint-me"
 
-//root.enablePlugins(DeadCodeDetectPlugin)
+organization := "org.dy.lint"
+
+version := "1.0"
+
+scalaVersion := "2.11.6"
+
+scalacOptions ++= Seq[String]("-Ywarn-dead-code", "-Ywarn-unused", "-Ywarn-value-discard")
