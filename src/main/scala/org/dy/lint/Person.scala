@@ -12,6 +12,6 @@ object Hi {
     }else{
       a= 3
     }
-    println("Hi Lint me2!")
+    println("Hi Lint me23!")
   }
 }

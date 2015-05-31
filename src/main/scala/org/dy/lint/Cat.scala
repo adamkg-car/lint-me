@@ -9,7 +9,7 @@ class Cat {
   def mewo() :String = {
     val c = "Mewo"
     return "a"
-    "bc"
+    "bc2"
   }
 
   def sayName() = {
